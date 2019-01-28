@@ -31,8 +31,7 @@ def initial_round
     ran1 = deal_card
     ran2 = deal_card
     total = ran1 + ran2
-    puts display_card_total(total)
-    total
+    display_card_total(total)
 end
 
 def hit?(number)
